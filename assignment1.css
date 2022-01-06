@@ -1,0 +1,165 @@
+*{
+    margin-top: 10px;
+    margin-left: 7px;
+}
+/* font setting */
+.head h1{
+   
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto Slab', serif;
+    font-weight: 900;
+    text-align: center;
+}
+.head h1 span{
+    color: blue;
+    font-weight: 700;
+}
+h1 span{
+    color: crimson;
+    font-size: 37px;
+    font-weight: 900px;
+}
+/* section border-1 */
+.left-border h1{
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto Slab', serif;
+    border-left: 7px solid;
+    border-image: linear-gradient(
+180deg, blue, cyan);
+    border-image-slice: 1;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: khaki;
+}
+
+.left-border{
+    width:40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+#border-1{
+    display: inline-block;
+}
+#border-1 .ima img{
+    width:25%;
+   
+}
+/* section mission */
+#mission{
+    margin: 34px;
+    display: flex;
+}
+#home .box-1{ 
+    /* border: 2px solid brown; */
+    padding: 9px;
+    margin: 2px 12px;
+    border-radius: 28px;
+    background: #bfc2c3;
+    margin-bottom: 20px;
+    width: 463px;
+}
+#home .box-2{ 
+    /* border: 2px solid brown; */
+    padding: 5px;
+    margin: 2px 12px;
+    border-radius: 28px;
+    background: #e1dbde;
+    margin-bottom: 20px;
+    width: 463px;
+}
+#home .box-3{ 
+    /* border: 2px solid brown; */
+    padding:9px;
+    margin: 2px 12px;
+    border-radius: 28px;
+    background: #efeaad;
+    margin-bottom: 20px;
+    width: 463px;
+}
+#home .box-1 img{ 
+    height: 146px;
+    margin: auto;
+    display: block;
+ }
+ #home .box-2 img{ 
+    height: 160px;
+    margin: auto;
+    display: block;
+ }
+ #home .box-3 img{ 
+    height: 160px;
+    margin: auto;
+    display: block;
+ }
+ .mymission{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3.8rem;
+    padding: 12px;
+ }
+ /* section develop */
+ #develop{
+    font-family: 'Open Sans', sans-serif;
+     display: flex;
+ }
+ #develop .ima img{
+    width:30%;
+    float:right;
+    margin-right: 5%;
+    padding-right: 12%;
+ }
+ .button{
+    text-decoration: none;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+ }
+ /* section global */
+ #global{
+    font-family: 'Open Sans', sans-serif;
+     display: flex;
+ }
+#global .ima img{
+ width: 30%;
+ float:left;
+ margin-left: 5%;
+ padding-left: 2%;
+ margin-right: 12px;
+}
+.illustrator1{
+    font-size: 2.3rem;
+    padding: 12px;
+}
+#application{
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+}
+.aplication-1 h1{
+    text-align: center;
+}
+
+#application .ima img{
+width:40%;
+float:right;
+margin-left: 5%;
+padding-right: 30%;
+margin-right: 12px;}
+
+footer{
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto Slab', serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: 700px;
+    padding: 25px 50px;
+}
+footer span{
+color: orangered;
+}
+footer p{
+    opacity: 0.3;
+}
